@@ -12,7 +12,7 @@
 		190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */; };
 		190C61FD27DB724100DF92C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FC27DB724100DF92C2 /* Assets.xcassets */; };
 		190C620027DB724100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
-		190C620B27DB724100DF92C2 /* ShiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C620A27DB724100DF92C2 /* ShiftsTests.swift */; };
+		190C620B27DB724100DF92C2 /* StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C620A27DB724100DF92C2 /* StorageTests.swift */; };
 		190C621527DB724100DF92C2 /* ShiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621427DB724100DF92C2 /* ShiftsUITests.swift */; };
 		190C621727DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621627DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift */; };
 		190C622F27DB7D2700DF92C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190C623127DB7D2700DF92C2 /* Localizable.strings */; };
@@ -22,6 +22,20 @@
 		190C624327DB813100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
 		190C624427DB813100DF92C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190C623127DB7D2700DF92C2 /* Localizable.strings */; };
 		190C624527DB813100DF92C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FC27DB724100DF92C2 /* Assets.xcassets */; };
+		190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C624D27DB894300DF92C2 /* SHStorageManager.swift */; };
+		190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C624D27DB894300DF92C2 /* SHStorageManager.swift */; };
+		190C625127DB8DA900DF92C2 /* SHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625027DB8DA900DF92C2 /* SHError.swift */; };
+		190C625227DB8DA900DF92C2 /* SHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625027DB8DA900DF92C2 /* SHError.swift */; };
+		190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625327DB96E100DF92C2 /* SHLocalJSONStorage.swift */; };
+		190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625327DB96E100DF92C2 /* SHLocalJSONStorage.swift */; };
+		190C625827DB9F3500DF92C2 /* People.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C625627DB9F3500DF92C2 /* People.json */; };
+		190C625927DB9F3500DF92C2 /* People.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C625627DB9F3500DF92C2 /* People.json */; };
+		190C625A27DB9F3500DF92C2 /* Shifts.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C625727DB9F3500DF92C2 /* Shifts.json */; };
+		190C625B27DB9F3500DF92C2 /* Shifts.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C625727DB9F3500DF92C2 /* Shifts.json */; };
+		190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625D27DBA1CD00DF92C2 /* Person.swift */; };
+		190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625D27DBA1CD00DF92C2 /* Person.swift */; };
+		190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
+		190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +64,20 @@
 		190C61FF27DB724100DF92C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190C620127DB724100DF92C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		190C620627DB724100DF92C2 /* ShiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		190C620A27DB724100DF92C2 /* ShiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsTests.swift; sourceTree = "<group>"; };
+		190C620A27DB724100DF92C2 /* StorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTests.swift; sourceTree = "<group>"; };
 		190C621027DB724100DF92C2 /* ShiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C621427DB724100DF92C2 /* ShiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsUITests.swift; sourceTree = "<group>"; };
 		190C621627DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		190C623027DB7D2700DF92C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		190C624927DB813100DF92C2 /* Shifts-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shifts-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C624A27DB823000DF92C2 /* Info-Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Test.plist"; sourceTree = "<group>"; };
+		190C624D27DB894300DF92C2 /* SHStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHStorageManager.swift; sourceTree = "<group>"; };
+		190C625027DB8DA900DF92C2 /* SHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHError.swift; sourceTree = "<group>"; };
+		190C625327DB96E100DF92C2 /* SHLocalJSONStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHLocalJSONStorage.swift; sourceTree = "<group>"; };
+		190C625627DB9F3500DF92C2 /* People.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = People.json; sourceTree = "<group>"; };
+		190C625727DB9F3500DF92C2 /* Shifts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shifts.json; sourceTree = "<group>"; };
+		190C625D27DBA1CD00DF92C2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		190C636827DBA9AD00DF92C2 /* ShiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +148,7 @@
 		190C620927DB724100DF92C2 /* ShiftsTests */ = {
 			isa = PBXGroup;
 			children = (
-				190C620A27DB724100DF92C2 /* ShiftsTests.swift */,
+				190C620A27DB724100DF92C2 /* StorageTests.swift */,
 			);
 			path = ShiftsTests;
 			sourceTree = "<group>";
@@ -224,6 +245,8 @@
 		190C622C27DB7C1400DF92C2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				190C625627DB9F3500DF92C2 /* People.json */,
+				190C625727DB9F3500DF92C2 /* Shifts.json */,
 				190C624A27DB823000DF92C2 /* Info-Test.plist */,
 				190C620127DB724100DF92C2 /* Info.plist */,
 				190C623127DB7D2700DF92C2 /* Localizable.strings */,
@@ -286,6 +309,7 @@
 		190C623927DB7E1A00DF92C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				190C625C27DBA1BD00DF92C2 /* ShiftList */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +317,7 @@
 		190C623A27DB7E2100DF92C2 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				190C624C27DB892200DF92C2 /* Storage */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -302,6 +327,25 @@
 			children = (
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		190C624C27DB892200DF92C2 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				190C624D27DB894300DF92C2 /* SHStorageManager.swift */,
+				190C625027DB8DA900DF92C2 /* SHError.swift */,
+				190C625327DB96E100DF92C2 /* SHLocalJSONStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		190C625C27DBA1BD00DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C625D27DBA1CD00DF92C2 /* Person.swift */,
+				190C636827DBA9AD00DF92C2 /* ShiftModel.swift */,
+			);
+			path = ShiftList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,7 +470,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C625827DB9F3500DF92C2 /* People.json in Resources */,
 				190C620027DB724100DF92C2 /* LaunchScreen.storyboard in Resources */,
+				190C625A27DB9F3500DF92C2 /* Shifts.json in Resources */,
 				190C622F27DB7D2700DF92C2 /* Localizable.strings in Resources */,
 				190C61FD27DB724100DF92C2 /* Assets.xcassets in Resources */,
 			);
@@ -450,7 +496,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C625927DB9F3500DF92C2 /* People.json in Resources */,
 				190C624327DB813100DF92C2 /* LaunchScreen.storyboard in Resources */,
+				190C625B27DB9F3500DF92C2 /* Shifts.json in Resources */,
 				190C624427DB813100DF92C2 /* Localizable.strings in Resources */,
 				190C624527DB813100DF92C2 /* Assets.xcassets in Resources */,
 			);
@@ -463,9 +511,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
+				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
+				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
+				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190C620B27DB724100DF92C2 /* ShiftsTests.swift in Sources */,
+				190C620B27DB724100DF92C2 /* StorageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,9 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
+				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
+				190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */,
+				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
