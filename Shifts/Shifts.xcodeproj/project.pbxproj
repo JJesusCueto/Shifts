@@ -36,6 +36,12 @@
 		190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625D27DBA1CD00DF92C2 /* Person.swift */; };
 		190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
 		190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
+		190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */; };
+		190C637427DE100200DF92C2 /* ShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637327DE100200DF92C2 /* ShiftData.swift */; };
+		190C637527DE100200DF92C2 /* ShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637327DE100200DF92C2 /* ShiftData.swift */; };
+		190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */; };
+		190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */; };
+		190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +84,12 @@
 		190C625727DB9F3500DF92C2 /* Shifts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shifts.json; sourceTree = "<group>"; };
 		190C625D27DBA1CD00DF92C2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		190C636827DBA9AD00DF92C2 /* ShiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftModel.swift; sourceTree = "<group>"; };
+		190C636C27DDF2EB00DF92C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		190C636D27DDF31500DF92C2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		190C636E27DDF31500DF92C2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftsListUseCase.swift; sourceTree = "<group>"; };
+		190C637327DE100200DF92C2 /* ShiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftData.swift; sourceTree = "<group>"; };
+		190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRepositoryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +293,7 @@
 		190C623527DB7DEF00DF92C2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				190C637727DE125500DF92C2 /* ShiftList */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -288,6 +301,7 @@
 		190C623627DB7DF600DF92C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				190C637227DE0FB100DF92C2 /* ShiftList */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +309,7 @@
 		190C623727DB7DFD00DF92C2 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				190C636F27DE0E9800DF92C2 /* ShiftList */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -344,6 +359,30 @@
 			children = (
 				190C625D27DBA1CD00DF92C2 /* Person.swift */,
 				190C636827DBA9AD00DF92C2 /* ShiftModel.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C636F27DE0E9800DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637227DE0FB100DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637327DE100200DF92C2 /* ShiftData.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637727DE125500DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */,
 			);
 			path = ShiftList;
 			sourceTree = "<group>";
@@ -451,6 +490,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 190C61E727DB723E00DF92C2;
 			productRefGroup = 190C61F127DB723E00DF92C2 /* Products */;
@@ -511,13 +551,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
+				190C637427DE100200DF92C2 /* ShiftData.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,8 +586,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
+				190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
@@ -574,6 +620,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				190C61FF27DB724100DF92C2 /* Base */,
+				190C636C27DDF2EB00DF92C2 /* en */,
+				190C636D27DDF31500DF92C2 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -582,6 +630,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				190C623027DB7D2700DF92C2 /* en */,
+				190C636E27DDF31500DF92C2 /* es-419 */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -593,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -654,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
