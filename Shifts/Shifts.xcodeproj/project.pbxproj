@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F327DB723E00DF92C2 /* AppDelegate.swift */; };
 		190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F527DB723E00DF92C2 /* SceneDelegate.swift */; };
-		190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */; };
+		190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */; };
 		190C61FD27DB724100DF92C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FC27DB724100DF92C2 /* Assets.xcassets */; };
 		190C620027DB724100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
 		190C620B27DB724100DF92C2 /* StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C620A27DB724100DF92C2 /* StorageTests.swift */; };
 		190C621527DB724100DF92C2 /* ShiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621427DB724100DF92C2 /* ShiftsUITests.swift */; };
 		190C621727DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621627DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift */; };
 		190C622F27DB7D2700DF92C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190C623127DB7D2700DF92C2 /* Localizable.strings */; };
-		190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */; };
+		190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */; };
 		190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F327DB723E00DF92C2 /* AppDelegate.swift */; };
 		190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F527DB723E00DF92C2 /* SceneDelegate.swift */; };
 		190C624327DB813100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
@@ -53,6 +53,12 @@
 		190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638A27DF33B000DF92C2 /* SHNavigationController.swift */; };
 		190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
 		190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
+		190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */; };
+		190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */; };
+		190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */; };
+		190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */; };
+		190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
+		190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +82,7 @@
 		190C61F027DB723E00DF92C2 /* Shifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C61F327DB723E00DF92C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		190C61F527DB723E00DF92C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsViewController.swift; sourceTree = "<group>"; };
+		190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftsViewController.swift; sourceTree = "<group>"; };
 		190C61FC27DB724100DF92C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190C61FF27DB724100DF92C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190C620127DB724100DF92C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 		190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftTableViewCell.swift; sourceTree = "<group>"; };
 		190C638A27DF33B000DF92C2 /* SHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNavigationController.swift; sourceTree = "<group>"; };
 		190C638D27DF372D00DF92C2 /* SHKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHKeys.swift; sourceTree = "<group>"; };
+		190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListPresenter.swift; sourceTree = "<group>"; };
+		190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRouter.swift; sourceTree = "<group>"; };
+		190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,7 +314,10 @@
 		190C623427DB7DCE00DF92C2 /* ShiftList */ = {
 			isa = PBXGroup;
 			children = (
-				190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */,
+				190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */,
+				190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */,
+				190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */,
+				190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */,
 			);
 			path = ShiftList;
 			sourceTree = "<group>";
@@ -613,14 +625,17 @@
 				190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
-				190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */,
+				190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
+				190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
 				190C637427DE100200DF92C2 /* ShiftData.swift in Sources */,
+				190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
+				190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -654,14 +669,17 @@
 				190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */,
+				190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
-				190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */,
+				190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
 				190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */,
+				190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
+				190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
