@@ -55,8 +55,14 @@ class SHShiftsViewController: UIViewController {
                                      self.tableView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
                                      self.tableView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
                                      self.tableView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor)])
+        self.navigationItem.setRightBarButton(UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(self.addShift)), animated: false)
         // Information
         self.presenter.getShiftsInformation()
+    }
+    
+    // MARK: - Selector
+    @objc private func addShift() {
+        self.presenter.goToAddShift()
     }
 }
 
@@ -83,5 +89,12 @@ extension SHShiftsViewController: SHShiftsView {
         self.tableView.beginUpdates()
         self.tableView.insertRows(at: [indexPath], with: .automatic)
         self.tableView.endUpdates()
+    }
+}
+
+// MARK: - SHAddShiftViewDelegate's implementation
+extension SHShiftsViewController: SHAddShiftViewDelegate {
+    func didAdd(shift newShift: SHShiftData) {
+        self.presenter.update(from: newShift)
     }
 }

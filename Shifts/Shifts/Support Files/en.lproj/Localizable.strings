@@ -10,4 +10,4 @@
 "SH_SHIFT_LIST_CONTROLLER_NAME" = "Shifts";
 // MARK: - Add Shift
 "SH_ADD_SHIFT_CONTROLLER_NAME" = "Add Shift";
-"SH_ADD_SHIFT_EMPTY_INFORMATION_ERROR" = "There was an error with the fetch, please try again."
+"SH_ADD_SHIFT_EMPTY_INFORMATION_ERROR" = "There was an error with the fetch, please try again.";

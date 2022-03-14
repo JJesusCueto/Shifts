@@ -79,6 +79,16 @@
 		190C63BE27DF790A00DF92C2 /* Roles.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BB27DF790A00DF92C2 /* Roles.json */; };
 		190C63BF27DF790A00DF92C2 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BC27DF790A00DF92C2 /* Colors.json */; };
 		190C63C027DF790A00DF92C2 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BC27DF790A00DF92C2 /* Colors.json */; };
+		190C63C327DF79CF00DF92C2 /* SHAddShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C227DF79CF00DF92C2 /* SHAddShiftViewController.swift */; };
+		190C63C427DF79CF00DF92C2 /* SHAddShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C227DF79CF00DF92C2 /* SHAddShiftViewController.swift */; };
+		190C63C627DF79E900DF92C2 /* SHAddShiftPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C527DF79E900DF92C2 /* SHAddShiftPresenter.swift */; };
+		190C63C727DF79E900DF92C2 /* SHAddShiftPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C527DF79E900DF92C2 /* SHAddShiftPresenter.swift */; };
+		190C63C927DF79F800DF92C2 /* SHAddShiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C827DF79F800DF92C2 /* SHAddShiftRouter.swift */; };
+		190C63CA27DF79F800DF92C2 /* SHAddShiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63C827DF79F800DF92C2 /* SHAddShiftRouter.swift */; };
+		190C63CC27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63CB27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift */; };
+		190C63CD27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63CB27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift */; };
+		190C63D027DFA5D200DF92C2 /* SHShiftInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63CF27DFA5D200DF92C2 /* SHShiftInfoView.swift */; };
+		190C63D127DFA5D200DF92C2 /* SHShiftInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63CF27DFA5D200DF92C2 /* SHShiftInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +156,11 @@
 		190C63B827DF59CB00DF92C2 /* SHAddShiftRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftRepository.swift; sourceTree = "<group>"; };
 		190C63BB27DF790A00DF92C2 /* Roles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Roles.json; sourceTree = "<group>"; };
 		190C63BC27DF790A00DF92C2 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		190C63C227DF79CF00DF92C2 /* SHAddShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftViewController.swift; sourceTree = "<group>"; };
+		190C63C527DF79E900DF92C2 /* SHAddShiftPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftPresenter.swift; sourceTree = "<group>"; };
+		190C63C827DF79F800DF92C2 /* SHAddShiftRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftRouter.swift; sourceTree = "<group>"; };
+		190C63CB27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftConfigurator.swift; sourceTree = "<group>"; };
+		190C63CF27DFA5D200DF92C2 /* SHShiftInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +280,7 @@
 		190C622627DB7B8800DF92C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				190C63C127DF79AA00DF92C2 /* AddShift */,
 				190C638927DF337900DF92C2 /* Navigation */,
 				190C623427DB7DCE00DF92C2 /* ShiftList */,
 			);
@@ -308,6 +324,7 @@
 		190C622B27DB7BF400DF92C2 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				190C63CE27DFA5A000DF92C2 /* Shift */,
 				190C638527DF2C7700DF92C2 /* TableViewCells */,
 			);
 			path = "Custom Views";
@@ -550,6 +567,25 @@
 			path = Employee;
 			sourceTree = "<group>";
 		};
+		190C63C127DF79AA00DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63C227DF79CF00DF92C2 /* SHAddShiftViewController.swift */,
+				190C63C527DF79E900DF92C2 /* SHAddShiftPresenter.swift */,
+				190C63C827DF79F800DF92C2 /* SHAddShiftRouter.swift */,
+				190C63CB27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift */,
+			);
+			path = AddShift;
+			sourceTree = "<group>";
+		};
+		190C63CE27DFA5A000DF92C2 /* Shift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63CF27DFA5D200DF92C2 /* SHShiftInfoView.swift */,
+			);
+			path = Shift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -719,6 +755,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
+				190C63CC27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift in Sources */,
+				190C63C627DF79E900DF92C2 /* SHAddShiftPresenter.swift in Sources */,
 				190C63AA27DF520E00DF92C2 /* SHShiftColor.swift in Sources */,
 				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
@@ -732,6 +770,8 @@
 				190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C63A227DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */,
+				190C63D027DFA5D200DF92C2 /* SHShiftInfoView.swift in Sources */,
+				190C63C327DF79CF00DF92C2 /* SHAddShiftViewController.swift in Sources */,
 				190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
@@ -742,6 +782,7 @@
 				190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
+				190C63C927DF79F800DF92C2 /* SHAddShiftRouter.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 				190C63B127DF535C00DF92C2 /* SHAddShiftData.swift in Sources */,
 				190C63AD27DF521900DF92C2 /* SHShiftRole.swift in Sources */,
@@ -771,6 +812,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
+				190C63CD27DF7A0300DF92C2 /* SHAddShiftConfigurator.swift in Sources */,
+				190C63C727DF79E900DF92C2 /* SHAddShiftPresenter.swift in Sources */,
 				190C63AB27DF520E00DF92C2 /* SHShiftColor.swift in Sources */,
 				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
@@ -784,6 +827,8 @@
 				190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C63A327DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */,
+				190C63D127DFA5D200DF92C2 /* SHShiftInfoView.swift in Sources */,
+				190C63C427DF79CF00DF92C2 /* SHAddShiftViewController.swift in Sources */,
 				190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
@@ -794,6 +839,7 @@
 				190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
+				190C63CA27DF79F800DF92C2 /* SHAddShiftRouter.swift in Sources */,
 				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
 				190C63B227DF535C00DF92C2 /* SHAddShiftData.swift in Sources */,
 				190C63AE27DF521900DF92C2 /* SHShiftRole.swift in Sources */,
