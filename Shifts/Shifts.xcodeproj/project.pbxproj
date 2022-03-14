@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F327DB723E00DF92C2 /* AppDelegate.swift */; };
 		190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F527DB723E00DF92C2 /* SceneDelegate.swift */; };
-		190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */; };
+		190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */; };
 		190C61FD27DB724100DF92C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FC27DB724100DF92C2 /* Assets.xcassets */; };
 		190C620027DB724100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
 		190C620B27DB724100DF92C2 /* StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C620A27DB724100DF92C2 /* StorageTests.swift */; };
 		190C621527DB724100DF92C2 /* ShiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621427DB724100DF92C2 /* ShiftsUITests.swift */; };
 		190C621727DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C621627DB724100DF92C2 /* ShiftsUITestsLaunchTests.swift */; };
 		190C622F27DB7D2700DF92C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190C623127DB7D2700DF92C2 /* Localizable.strings */; };
-		190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */; };
+		190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */; };
 		190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F327DB723E00DF92C2 /* AppDelegate.swift */; };
 		190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C61F527DB723E00DF92C2 /* SceneDelegate.swift */; };
 		190C624327DB813100DF92C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C61FE27DB724100DF92C2 /* LaunchScreen.storyboard */; };
@@ -36,6 +36,29 @@
 		190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C625D27DBA1CD00DF92C2 /* Person.swift */; };
 		190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
 		190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C636827DBA9AD00DF92C2 /* ShiftModel.swift */; };
+		190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */; };
+		190C637427DE100200DF92C2 /* ShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637327DE100200DF92C2 /* ShiftData.swift */; };
+		190C637527DE100200DF92C2 /* ShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637327DE100200DF92C2 /* ShiftData.swift */; };
+		190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */; };
+		190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */; };
+		190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */; };
+		190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637C27DE14D600DF92C2 /* SHShiftListRepository.swift */; };
+		190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C637C27DE14D600DF92C2 /* SHShiftListRepository.swift */; };
+		190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638027DF1C3600DF92C2 /* Util+Extensions.swift */; };
+		190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638027DF1C3600DF92C2 /* Util+Extensions.swift */; };
+		190C638427DF216A00DF92C2 /* ShiftListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638327DF216A00DF92C2 /* ShiftListTests.swift */; };
+		190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */; };
+		190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */; };
+		190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638A27DF33B000DF92C2 /* SHNavigationController.swift */; };
+		190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638A27DF33B000DF92C2 /* SHNavigationController.swift */; };
+		190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
+		190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
+		190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */; };
+		190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */; };
+		190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */; };
+		190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */; };
+		190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
+		190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +82,7 @@
 		190C61F027DB723E00DF92C2 /* Shifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C61F327DB723E00DF92C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		190C61F527DB723E00DF92C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsViewController.swift; sourceTree = "<group>"; };
+		190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftsViewController.swift; sourceTree = "<group>"; };
 		190C61FC27DB724100DF92C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190C61FF27DB724100DF92C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190C620127DB724100DF92C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +101,21 @@
 		190C625727DB9F3500DF92C2 /* Shifts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shifts.json; sourceTree = "<group>"; };
 		190C625D27DBA1CD00DF92C2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		190C636827DBA9AD00DF92C2 /* ShiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftModel.swift; sourceTree = "<group>"; };
+		190C636C27DDF2EB00DF92C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		190C636D27DDF31500DF92C2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		190C636E27DDF31500DF92C2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftsListUseCase.swift; sourceTree = "<group>"; };
+		190C637327DE100200DF92C2 /* ShiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftData.swift; sourceTree = "<group>"; };
+		190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRepositoryProtocol.swift; sourceTree = "<group>"; };
+		190C637C27DE14D600DF92C2 /* SHShiftListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRepository.swift; sourceTree = "<group>"; };
+		190C638027DF1C3600DF92C2 /* Util+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Util+Extensions.swift"; sourceTree = "<group>"; };
+		190C638327DF216A00DF92C2 /* ShiftListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftListTests.swift; sourceTree = "<group>"; };
+		190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftTableViewCell.swift; sourceTree = "<group>"; };
+		190C638A27DF33B000DF92C2 /* SHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNavigationController.swift; sourceTree = "<group>"; };
+		190C638D27DF372D00DF92C2 /* SHKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHKeys.swift; sourceTree = "<group>"; };
+		190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListPresenter.swift; sourceTree = "<group>"; };
+		190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRouter.swift; sourceTree = "<group>"; };
+		190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				190C620A27DB724100DF92C2 /* StorageTests.swift */,
+				190C638327DF216A00DF92C2 /* ShiftListTests.swift */,
 			);
 			path = ShiftsTests;
 			sourceTree = "<group>";
@@ -196,6 +235,7 @@
 		190C622627DB7B8800DF92C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				190C638927DF337900DF92C2 /* Navigation */,
 				190C623427DB7DCE00DF92C2 /* ShiftList */,
 			);
 			path = View;
@@ -238,6 +278,7 @@
 		190C622B27DB7BF400DF92C2 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				190C638527DF2C7700DF92C2 /* TableViewCells */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -273,7 +314,10 @@
 		190C623427DB7DCE00DF92C2 /* ShiftList */ = {
 			isa = PBXGroup;
 			children = (
-				190C61F727DB723E00DF92C2 /* ShiftsViewController.swift */,
+				190C61F727DB723E00DF92C2 /* SHShiftsViewController.swift */,
+				190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */,
+				190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */,
+				190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */,
 			);
 			path = ShiftList;
 			sourceTree = "<group>";
@@ -281,6 +325,7 @@
 		190C623527DB7DEF00DF92C2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				190C637727DE125500DF92C2 /* ShiftList */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -288,6 +333,7 @@
 		190C623627DB7DF600DF92C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				190C637227DE0FB100DF92C2 /* ShiftList */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +341,7 @@
 		190C623727DB7DFD00DF92C2 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				190C636F27DE0E9800DF92C2 /* ShiftList */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -302,6 +349,7 @@
 		190C623827DB7E1000DF92C2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				190C637B27DE14C800DF92C2 /* ShiftList */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -325,6 +373,8 @@
 		190C623B27DB80E900DF92C2 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				190C637F27DF1C2000DF92C2 /* Extensions */,
+				190C638D27DF372D00DF92C2 /* SHKeys.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -346,6 +396,62 @@
 				190C636827DBA9AD00DF92C2 /* ShiftModel.swift */,
 			);
 			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C636F27DE0E9800DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637027DE0EB900DF92C2 /* SHShiftsListUseCase.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637227DE0FB100DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637327DE100200DF92C2 /* ShiftData.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637727DE125500DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637827DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637B27DE14C800DF92C2 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				190C637C27DE14D600DF92C2 /* SHShiftListRepository.swift */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		190C637F27DF1C2000DF92C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				190C638027DF1C3600DF92C2 /* Util+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		190C638527DF2C7700DF92C2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		190C638927DF337900DF92C2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				190C638A27DF33B000DF92C2 /* SHNavigationController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +557,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 190C61E727DB723E00DF92C2;
 			productRefGroup = 190C61F127DB723E00DF92C2 /* Products */;
@@ -511,13 +618,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
+				190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
+				190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
-				190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */,
+				190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
+				190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */,
+				190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
+				190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
+				190C637427DE100200DF92C2 /* ShiftData.swift in Sources */,
+				190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
+				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
+				190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +644,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C638427DF216A00DF92C2 /* ShiftListTests.swift in Sources */,
 				190C620B27DB724100DF92C2 /* StorageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,13 +662,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
+				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
+				190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
+				190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
+				190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */,
+				190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
-				190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */,
+				190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
+				190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
+				190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */,
+				190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
+				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
+				190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +704,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				190C61FF27DB724100DF92C2 /* Base */,
+				190C636C27DDF2EB00DF92C2 /* en */,
+				190C636D27DDF31500DF92C2 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -582,6 +714,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				190C623027DB7D2700DF92C2 /* en */,
+				190C636E27DDF31500DF92C2 /* es-419 */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -593,6 +726,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -654,6 +788,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

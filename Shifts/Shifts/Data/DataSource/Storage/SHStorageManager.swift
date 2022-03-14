@@ -12,7 +12,7 @@ import Foundation
  */
 protocol SHStorageManager: AnyObject {
     /**
-     Method that perform a request of type GET and return an expected value depending of the especified mode and reponse status.
+     Method that perform an operation to get the information of any kind of database. Returns an expected value that conforms `Codable`, otherwise returns an error.
      - Parameter path: The resource's path of type `String`.
      - Parameter result: Closure that resturns  a result with an expected value of `Codable` type or `Error`.
      */

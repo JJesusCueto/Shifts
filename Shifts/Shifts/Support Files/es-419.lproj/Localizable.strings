@@ -7,6 +7,6 @@
 */
 
 // MARK: - ShiftsList
-"SH_SHIFT_LIST_CONTROLLER_NAME" = "Shifts";
+"SH_SHIFT_LIST_CONTROLLER_NAME" = "Turnos";
 // MARK: - Add Shift
-"SH_ADD_SHIFT_CONTROLLER_NAME" = "Add Shift";
+"SH_ADD_SHIFT_CONTROLLER_NAME" = "Añadir Turno";
