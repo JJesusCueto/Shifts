@@ -5,3 +5,8 @@
   Created by Jesus Cueto on 3/11/22.
   
 */
+
+// MARK: - ShiftsList
+"SH_SHIFT_LIST_CONTROLLER_NAME" = "Turnos";
+// MARK: - Add Shift
+"SH_ADD_SHIFT_CONTROLLER_NAME" = "Añadir Turno";

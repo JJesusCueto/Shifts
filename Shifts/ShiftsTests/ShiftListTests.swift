@@ -49,11 +49,11 @@ class ShiftListTests: XCTestCase {
         let start =  "2018-04-20 9:00:00 -08:00"
         let end =  "2018-4-20 12:00:00 -08:00"
         let expectedResult = Date.getFormattedDate(format: "h", from: start) + " - " + Date.getFormattedDate(format: "h a", from: end)
-        var firstResult = ""
+        var firstResult = SHKeys.MessageKeys.emptyText
         self.shiftLisInteractor?.getShifts(completion: { (result: Result<[SHShiftData], SHError>) in
             switch result {
             case .success(let shifts):
-                firstResult = shifts.first?.schedule ?? ""
+                firstResult = shifts.first?.schedule ?? SHKeys.MessageKeys.emptyText
                 expectation.fulfill()
             case .failure(_ ):
                 XCTFail("Should not recieved an error")

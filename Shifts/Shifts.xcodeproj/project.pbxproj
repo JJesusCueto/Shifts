@@ -47,6 +47,12 @@
 		190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638027DF1C3600DF92C2 /* Util+Extensions.swift */; };
 		190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638027DF1C3600DF92C2 /* Util+Extensions.swift */; };
 		190C638427DF216A00DF92C2 /* ShiftListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638327DF216A00DF92C2 /* ShiftListTests.swift */; };
+		190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */; };
+		190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */; };
+		190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638A27DF33B000DF92C2 /* SHNavigationController.swift */; };
+		190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638A27DF33B000DF92C2 /* SHNavigationController.swift */; };
+		190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
+		190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C638D27DF372D00DF92C2 /* SHKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +104,9 @@
 		190C637C27DE14D600DF92C2 /* SHShiftListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRepository.swift; sourceTree = "<group>"; };
 		190C638027DF1C3600DF92C2 /* Util+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Util+Extensions.swift"; sourceTree = "<group>"; };
 		190C638327DF216A00DF92C2 /* ShiftListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftListTests.swift; sourceTree = "<group>"; };
+		190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftTableViewCell.swift; sourceTree = "<group>"; };
+		190C638A27DF33B000DF92C2 /* SHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNavigationController.swift; sourceTree = "<group>"; };
+		190C638D27DF372D00DF92C2 /* SHKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +226,7 @@
 		190C622627DB7B8800DF92C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				190C638927DF337900DF92C2 /* Navigation */,
 				190C623427DB7DCE00DF92C2 /* ShiftList */,
 			);
 			path = View;
@@ -259,6 +269,7 @@
 		190C622B27DB7BF400DF92C2 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				190C638527DF2C7700DF92C2 /* TableViewCells */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -351,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				190C637F27DF1C2000DF92C2 /* Extensions */,
+				190C638D27DF372D00DF92C2 /* SHKeys.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -412,6 +424,22 @@
 				190C638027DF1C3600DF92C2 /* Util+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		190C638527DF2C7700DF92C2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				190C638627DF2CA400DF92C2 /* SHShiftTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		190C638927DF337900DF92C2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				190C638A27DF33B000DF92C2 /* SHNavigationController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,15 +609,18 @@
 				190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
+				190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
 				190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C61F827DB723E00DF92C2 /* ShiftsViewController.swift in Sources */,
+				190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
 				190C637427DE100200DF92C2 /* ShiftData.swift in Sources */,
+				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,15 +650,18 @@
 				190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
 				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
+				190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
 				190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
+				190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C623E27DB813100DF92C2 /* ShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
 				190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */,
+				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
