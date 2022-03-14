@@ -71,6 +71,14 @@
 		190C63AE27DF521900DF92C2 /* SHShiftRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63AC27DF521900DF92C2 /* SHShiftRole.swift */; };
 		190C63B127DF535C00DF92C2 /* SHAddShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */; };
 		190C63B227DF535C00DF92C2 /* SHAddShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */; };
+		190C63B627DF59B300DF92C2 /* SHEmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B527DF59B300DF92C2 /* SHEmployeeRepository.swift */; };
+		190C63B727DF59B300DF92C2 /* SHEmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B527DF59B300DF92C2 /* SHEmployeeRepository.swift */; };
+		190C63B927DF59CB00DF92C2 /* SHAddShiftRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B827DF59CB00DF92C2 /* SHAddShiftRepository.swift */; };
+		190C63BA27DF59CB00DF92C2 /* SHAddShiftRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B827DF59CB00DF92C2 /* SHAddShiftRepository.swift */; };
+		190C63BD27DF790A00DF92C2 /* Roles.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BB27DF790A00DF92C2 /* Roles.json */; };
+		190C63BE27DF790A00DF92C2 /* Roles.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BB27DF790A00DF92C2 /* Roles.json */; };
+		190C63BF27DF790A00DF92C2 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BC27DF790A00DF92C2 /* Colors.json */; };
+		190C63C027DF790A00DF92C2 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 190C63BC27DF790A00DF92C2 /* Colors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +142,10 @@
 		190C63A927DF520E00DF92C2 /* SHShiftColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftColor.swift; sourceTree = "<group>"; };
 		190C63AC27DF521900DF92C2 /* SHShiftRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftRole.swift; sourceTree = "<group>"; };
 		190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftData.swift; sourceTree = "<group>"; };
+		190C63B527DF59B300DF92C2 /* SHEmployeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHEmployeeRepository.swift; sourceTree = "<group>"; };
+		190C63B827DF59CB00DF92C2 /* SHAddShiftRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftRepository.swift; sourceTree = "<group>"; };
+		190C63BB27DF790A00DF92C2 /* Roles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Roles.json; sourceTree = "<group>"; };
+		190C63BC27DF790A00DF92C2 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +316,8 @@
 		190C622C27DB7C1400DF92C2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				190C63BC27DF790A00DF92C2 /* Colors.json */,
+				190C63BB27DF790A00DF92C2 /* Roles.json */,
 				190C625627DB9F3500DF92C2 /* People.json */,
 				190C625727DB9F3500DF92C2 /* Shifts.json */,
 				190C624A27DB823000DF92C2 /* Info-Test.plist */,
@@ -371,6 +385,8 @@
 		190C623827DB7E1000DF92C2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				190C63B427DF59A000DF92C2 /* Employee */,
+				190C63B327DF599200DF92C2 /* AddShift */,
 				190C637B27DE14C800DF92C2 /* ShiftList */,
 			);
 			path = Repository;
@@ -518,6 +534,22 @@
 			path = AddShift;
 			sourceTree = "<group>";
 		};
+		190C63B327DF599200DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63B827DF59CB00DF92C2 /* SHAddShiftRepository.swift */,
+			);
+			path = AddShift;
+			sourceTree = "<group>";
+		};
+		190C63B427DF59A000DF92C2 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				190C63B527DF59B300DF92C2 /* SHEmployeeRepository.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -643,7 +675,9 @@
 			files = (
 				190C625827DB9F3500DF92C2 /* People.json in Resources */,
 				190C620027DB724100DF92C2 /* LaunchScreen.storyboard in Resources */,
+				190C63BF27DF790A00DF92C2 /* Colors.json in Resources */,
 				190C625A27DB9F3500DF92C2 /* Shifts.json in Resources */,
+				190C63BD27DF790A00DF92C2 /* Roles.json in Resources */,
 				190C622F27DB7D2700DF92C2 /* Localizable.strings in Resources */,
 				190C61FD27DB724100DF92C2 /* Assets.xcassets in Resources */,
 			);
@@ -669,7 +703,9 @@
 			files = (
 				190C625927DB9F3500DF92C2 /* People.json in Resources */,
 				190C624327DB813100DF92C2 /* LaunchScreen.storyboard in Resources */,
+				190C63C027DF790A00DF92C2 /* Colors.json in Resources */,
 				190C625B27DB9F3500DF92C2 /* Shifts.json in Resources */,
+				190C63BE27DF790A00DF92C2 /* Roles.json in Resources */,
 				190C624427DB813100DF92C2 /* Localizable.strings in Resources */,
 				190C624527DB813100DF92C2 /* Assets.xcassets in Resources */,
 			);
@@ -688,6 +724,7 @@
 				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
 				190C63A627DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */,
+				190C63B627DF59B300DF92C2 /* SHEmployeeRepository.swift in Sources */,
 				190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C639E27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
@@ -700,6 +737,7 @@
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
 				190C638127DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C61F627DB723E00DF92C2 /* SceneDelegate.swift in Sources */,
+				190C63B927DF59CB00DF92C2 /* SHAddShiftRepository.swift in Sources */,
 				190C637427DE100200DF92C2 /* ShiftData.swift in Sources */,
 				190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
@@ -738,6 +776,7 @@
 				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
 				190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
 				190C63A727DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */,
+				190C63B727DF59B300DF92C2 /* SHEmployeeRepository.swift in Sources */,
 				190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
 				190C639F27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
@@ -750,6 +789,7 @@
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
 				190C638227DF1C3600DF92C2 /* Util+Extensions.swift in Sources */,
 				190C625F27DBA1CD00DF92C2 /* Person.swift in Sources */,
+				190C63BA27DF59CB00DF92C2 /* SHAddShiftRepository.swift in Sources */,
 				190C624027DB813100DF92C2 /* SceneDelegate.swift in Sources */,
 				190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */,
 				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
