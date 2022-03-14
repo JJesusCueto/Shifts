@@ -17,4 +17,10 @@ struct SHShiftData: Codable {
     let schedule: String
     /// `String` that containts relevant information of the shift (Name, role, date)
     let information: String
+    
+    init(from shiftModel: ShiftModel) {
+        self.color = shiftModel.color
+        self.schedule = Date.getHours(from: shiftModel.startDate, finalDate: shiftModel.endDate)
+        self.information = shiftModel.name + " (\(shiftModel.role)) " + Date.getFormattedDate(format: "E, MMM d", from: shiftModel.startDate)
+    }
 }
