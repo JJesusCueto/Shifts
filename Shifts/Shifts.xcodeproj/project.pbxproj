@@ -59,6 +59,18 @@
 		190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */; };
 		190C639A27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
 		190C639B27DF38D000DF92C2 /* SHShiftListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */; };
+		190C639E27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639D27DF506C00DF92C2 /* SHAddShiftUseCase.swift */; };
+		190C639F27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C639D27DF506C00DF92C2 /* SHAddShiftUseCase.swift */; };
+		190C63A227DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A127DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift */; };
+		190C63A327DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A127DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift */; };
+		190C63A627DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A527DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift */; };
+		190C63A727DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A527DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift */; };
+		190C63AA27DF520E00DF92C2 /* SHShiftColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A927DF520E00DF92C2 /* SHShiftColor.swift */; };
+		190C63AB27DF520E00DF92C2 /* SHShiftColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63A927DF520E00DF92C2 /* SHShiftColor.swift */; };
+		190C63AD27DF521900DF92C2 /* SHShiftRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63AC27DF521900DF92C2 /* SHShiftRole.swift */; };
+		190C63AE27DF521900DF92C2 /* SHShiftRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63AC27DF521900DF92C2 /* SHShiftRole.swift */; };
+		190C63B127DF535C00DF92C2 /* SHAddShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */; };
+		190C63B227DF535C00DF92C2 /* SHAddShiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +128,12 @@
 		190C639327DF38BB00DF92C2 /* SHShiftListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListPresenter.swift; sourceTree = "<group>"; };
 		190C639627DF38C400DF92C2 /* SHShiftListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListRouter.swift; sourceTree = "<group>"; };
 		190C639927DF38D000DF92C2 /* SHShiftListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftListConfigurator.swift; sourceTree = "<group>"; };
+		190C639D27DF506C00DF92C2 /* SHAddShiftUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftUseCase.swift; sourceTree = "<group>"; };
+		190C63A127DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftRepositoryProtocol.swift; sourceTree = "<group>"; };
+		190C63A527DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHEmployeesRepositoryProtocol.swift; sourceTree = "<group>"; };
+		190C63A927DF520E00DF92C2 /* SHShiftColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftColor.swift; sourceTree = "<group>"; };
+		190C63AC27DF521900DF92C2 /* SHShiftRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHShiftRole.swift; sourceTree = "<group>"; };
+		190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAddShiftData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +343,8 @@
 		190C623527DB7DEF00DF92C2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				190C63A427DF50CF00DF92C2 /* Workers */,
+				190C63A027DF507500DF92C2 /* AddShift */,
 				190C637727DE125500DF92C2 /* ShiftList */,
 			);
 			path = Repository;
@@ -333,6 +353,7 @@
 		190C623627DB7DF600DF92C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				190C63AF27DF534400DF92C2 /* AddShift */,
 				190C637227DE0FB100DF92C2 /* ShiftList */,
 			);
 			path = Model;
@@ -341,6 +362,7 @@
 		190C623727DB7DFD00DF92C2 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				190C639C27DF505500DF92C2 /* AddShift */,
 				190C636F27DE0E9800DF92C2 /* ShiftList */,
 			);
 			path = UseCase;
@@ -357,6 +379,7 @@
 		190C623927DB7E1A00DF92C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				190C63A827DF51F500DF92C2 /* AddShift */,
 				190C625C27DBA1BD00DF92C2 /* ShiftList */,
 			);
 			path = Model;
@@ -452,6 +475,47 @@
 				190C638A27DF33B000DF92C2 /* SHNavigationController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		190C639C27DF505500DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C639D27DF506C00DF92C2 /* SHAddShiftUseCase.swift */,
+			);
+			path = AddShift;
+			sourceTree = "<group>";
+		};
+		190C63A027DF507500DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63A127DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift */,
+			);
+			path = AddShift;
+			sourceTree = "<group>";
+		};
+		190C63A427DF50CF00DF92C2 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				190C63A527DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		190C63A827DF51F500DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63A927DF520E00DF92C2 /* SHShiftColor.swift */,
+				190C63AC27DF521900DF92C2 /* SHShiftRole.swift */,
+			);
+			path = AddShift;
+			sourceTree = "<group>";
+		};
+		190C63AF27DF534400DF92C2 /* AddShift */ = {
+			isa = PBXGroup;
+			children = (
+				190C63B027DF535C00DF92C2 /* SHAddShiftData.swift */,
+			);
+			path = AddShift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -619,14 +683,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				190C637927DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
+				190C63AA27DF520E00DF92C2 /* SHShiftColor.swift in Sources */,
 				190C625427DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637127DE0EB900DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C638727DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
+				190C63A627DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */,
 				190C637D27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
+				190C639E27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */,
 				190C624E27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C636927DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
 				190C639427DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C61F827DB723E00DF92C2 /* SHShiftsViewController.swift in Sources */,
+				190C63A227DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */,
 				190C638B27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C61F427DB723E00DF92C2 /* AppDelegate.swift in Sources */,
 				190C625E27DBA1CD00DF92C2 /* Person.swift in Sources */,
@@ -637,6 +705,8 @@
 				190C638E27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C639727DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625127DB8DA900DF92C2 /* SHError.swift in Sources */,
+				190C63B127DF535C00DF92C2 /* SHAddShiftData.swift in Sources */,
+				190C63AD27DF521900DF92C2 /* SHShiftRole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,14 +733,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				190C637A27DE126A00DF92C2 /* SHShiftListRepositoryProtocol.swift in Sources */,
+				190C63AB27DF520E00DF92C2 /* SHShiftColor.swift in Sources */,
 				190C625527DB96E100DF92C2 /* SHLocalJSONStorage.swift in Sources */,
 				190C637527DE100200DF92C2 /* ShiftData.swift in Sources */,
 				190C638827DF2CA400DF92C2 /* SHShiftTableViewCell.swift in Sources */,
+				190C63A727DF50EB00DF92C2 /* SHEmployeesRepositoryProtocol.swift in Sources */,
 				190C637E27DE14D600DF92C2 /* SHShiftListRepository.swift in Sources */,
+				190C639F27DF506C00DF92C2 /* SHAddShiftUseCase.swift in Sources */,
 				190C624F27DB894300DF92C2 /* SHStorageManager.swift in Sources */,
 				190C637627DE100700DF92C2 /* SHShiftsListUseCase.swift in Sources */,
 				190C639527DF38BB00DF92C2 /* SHShiftListPresenter.swift in Sources */,
 				190C636A27DBA9AD00DF92C2 /* ShiftModel.swift in Sources */,
+				190C63A327DF508200DF92C2 /* SHAddShiftRepositoryProtocol.swift in Sources */,
 				190C638C27DF33B000DF92C2 /* SHNavigationController.swift in Sources */,
 				190C623E27DB813100DF92C2 /* SHShiftsViewController.swift in Sources */,
 				190C623F27DB813100DF92C2 /* AppDelegate.swift in Sources */,
@@ -681,6 +755,8 @@
 				190C638F27DF372D00DF92C2 /* SHKeys.swift in Sources */,
 				190C639827DF38C400DF92C2 /* SHShiftListRouter.swift in Sources */,
 				190C625227DB8DA900DF92C2 /* SHError.swift in Sources */,
+				190C63B227DF535C00DF92C2 /* SHAddShiftData.swift in Sources */,
+				190C63AE27DF521900DF92C2 /* SHShiftRole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
