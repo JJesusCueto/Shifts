@@ -1,0 +1,20 @@
+{
+        "roles": [
+         { 
+                "id": 1,
+                "name": "Waiter"
+         },
+         { 
+                "id": 2,
+                "name": "Prep"
+         },
+         { 
+                "id": 3,
+                "name": "Front of House"
+         },
+         { 
+                "id": 4,
+                "name": "Cook"
+         }
+        ]
+}

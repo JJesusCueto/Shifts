@@ -12,7 +12,7 @@ import Foundation
 */
 protocol SHShiftListRepositoryProtocol: AnyObject {
     /**
-     Method that retrieves all available shifts and return an expected value depending of the result. Expected values of `SHShifData` for success and `SHError` for failure.
+     Method that retrieves all available shifts and return an expected value depending of the result. Expected values of `ShiftListModel` for success and `SHError` for failure.
      - Parameter completion: Closure that resturns  a result with an expected value of `ShiftListModel` type or `Error`.
      */
     func getShifts(completion: @escaping(Result<ShiftListModel, Error>) -> Void)

@@ -18,6 +18,7 @@ struct SHKeys {
         static let shiftListControllerTitle = "SH_SHIFT_LIST_CONTROLLER_NAME"
         // Add Shift
         static let addShiftControllerTitle = "SH_ADD_SHIFT_CONTROLLER_NAME"
+        static let addShiftEmptyInformation = "SH_ADD_SHIFT_EMPTY_INFORMATION_ERROR"
     }
     
     // MARK: - Colors
